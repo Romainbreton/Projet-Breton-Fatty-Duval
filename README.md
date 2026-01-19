@@ -37,12 +37,10 @@ Les données sont stockées dans une base de données MySQL et affichées dynami
 
 - **Langages** : PHP, HTML, CSS  
 - **Base de données** : MySQL  
-- **Serveur** : Apache  
-- **Versioning** : Git, GitHub  
+- **Serveur** :  ProFreeHost 
+- **Versioning** : GitHub  
 - **Gestion de projet** : Trello  
 - **Conception** : UML, MindView  
-- **Hébergement** : Serveur web compatible PHP/MySQL  
-
 ---
 
 ## Modélisation UML
