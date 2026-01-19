@@ -61,15 +61,18 @@ La conception du système repose sur plusieurs diagrammes UML :
 #### Table `citations`
 - `id`
 - `texte`
-- `auteur`
-- `source`
-- `date_ajout`
+- `source_id`
+- `created_by`
+- `created_at`
+- `updated_at`
 
 #### Table `utilisateurs`
 - `id`
 - `nom_utilisateur`
 - `mot_de_passe`
 - `role`
+- `created_at`
+- `updated_at`
 
 ---
 
