@@ -40,16 +40,6 @@ https://citapedia.unaux.com
 
 ---
 
-## Technologies utilisées
-
-- **Langages** : PHP, HTML, CSS  
-- **Base de données** : MySQL  
-- **Serveur** :  ProFreeHost 
-- **Versioning** : GitHub  
-- **Gestion de projet** : Trello  
-- **Conception** : UML, MindView  
----
-
 ## Modélisation UML
 
 La conception du système repose sur plusieurs diagrammes UML :
@@ -57,32 +47,9 @@ La conception du système repose sur plusieurs diagrammes UML :
 - Diagramme de classes
 - Diagrammes de séquence pour :
   - l’ajout d’une citation  
-  - la suppression d’une citation  
-
+  - la suppression d’une citation
+  - 
 ---
-
-## Base de données
-
-### Modèle relationnel
-
-#### Table `citations`
-- `id`
-- `texte`
-- `source_id`
-- `created_by`
-- `created_at`
-- `updated_at`
-
-#### Table `utilisateurs`
-- `id`
-- `nom_utilisateur`
-- `mot_de_passe`
-- `role`
-- `created_at`
-- `updated_at`
-
----
-
 ## Ajout de citations
 
 L’ajout d’une citation s’effectue via un formulaire HTML relié à un script PHP qui :
